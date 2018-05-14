@@ -39,36 +39,10 @@
 		    <version>3.7</version>
 		</dependency>
 		<dependency>
-                      <groupId>com.ibm.websphere.ws</groupId>
-                      <artifactId>com.ibm.ws.runtime</artifactId>
-                      <version>1.0.0</version>
-                      <type>jar</type>
+                      <groupId>com.ibm.websphere.appserver.runtime</groupId>
+                      <artifactId>wlp-javaee7</artifactId>
+                      <version>8.5.5.12</version>
                 </dependency>
-		<dependency>
-		            <groupId>com.ibm.ws</groupId>
-		            <artifactId>admin</artifactId>
-		            <version>8.5.5</version>
-		            <scope>provided</scope>
-		  </dependency>
-		  <dependency>
-		            <groupId>com.ibm.ws</groupId>
-		            <artifactId>orb</artifactId>
-		            <version>8.5.5</version>
-		            <scope>provided</scope>
-		  </dependency>
-		  <dependency>
-		            <groupId>com.ibm.ws</groupId>
-		            <artifactId>crypto</artifactId>
-		            <version>8.5.5</version>
-		            <scope>provided</scope>
-                   </dependency>
-		   <dependency>
-				      <groupId>com.ibm.tools.target</groupId>
-				      <artifactId>was-liberty</artifactId>
-				      <version>8.5.5</version>
-				      <type>pom</type>
-				      <scope>provided</scope>
-                   </dependency>
 
 		<!-- <dependency>
 		  <groupId>org.sonarsource.java</groupId>
