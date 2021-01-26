@@ -1,0 +1,11 @@
+node{
+   stage("git clone"){
+		checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Devendranathashok/myweb.git']]])
+   }
+   stage("maven package"){
+		sh'mvn clean package'
+   }
+   stage("deploy to tomcat"){
+      
+   }
+ }
